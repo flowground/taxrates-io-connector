@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "domain": {
+            "required": true,
+            "type": "string"
+        },
+        "country_code": {
+            "required": true,
+            "type": "string"
+        },
+        "filter": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

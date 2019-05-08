@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "domain": {
+            "required": true,
+            "type": "string"
+        },
+        "clientid": {
+            "required": true,
+            "type": "string"
+        },
+        "clientsecret": {
+            "required": true,
+            "type": "string"
+        },
+        "clientscope": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

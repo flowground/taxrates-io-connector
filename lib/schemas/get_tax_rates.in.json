@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "domain": {
+            "required": true,
+            "type": "string"
+        },
+        "filter": {
+            "required": false,
+            "type": "string"
+        },
+        "zip": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

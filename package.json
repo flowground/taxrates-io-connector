@@ -1,0 +1,15 @@
+{
+    "name": "taxrates-io-connector",
+    "version": "3.0.0",
+    "description": "Taxrates.io API - the successfully streamlined tax rates monitoring process. Use 'Expand operation' link on the right to see details. Start with authentication: get your token and generate authorization string. We recommend using <a href='https://www.getpostman.com/' target=_new>Postman</a> when discovering our API. Happy using!",
+    "main": "component.json",
+    "dependencies": {
+        "elasticio-node": "0.0.9",
+        "elasticio-sailor-nodejs": "^2.2.1",
+        "swagger-client": "^3.8.22"
+    },
+    "author": {
+        "name": "Deutsche Telekom AG"
+    },
+    "license": "Apache-2.0"
+}

@@ -1,0 +1,46 @@
+{
+    "type": "object",
+    "properties": {
+        "domain": {
+            "required": true,
+            "type": "string"
+        },
+        "filter": {
+            "required": false,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "apartment_number": {
+                    "description": "Apartment number if any",
+                    "type": "string"
+                },
+                "city": {
+                    "description": "City name",
+                    "type": "string"
+                },
+                "country": {
+                    "description": "Country name",
+                    "type": "string"
+                },
+                "postal_code": {
+                    "description": "City zip code",
+                    "type": "string"
+                },
+                "state": {
+                    "description": "Province or state",
+                    "type": "string"
+                },
+                "street": {
+                    "description": "Street",
+                    "type": "string"
+                },
+                "street_number": {
+                    "description": "Street number",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}
